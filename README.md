@@ -21,3 +21,22 @@ done
 control+x ,y,enter
 sudo chmod 777 infi.sh
 sh infi.sh
+
+hosting website in ec2
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx
+nginx -v
+cd /var/www/
+sudo chmod 777 html
+
+github file upload
+git init
+dir
+git add .
+git status
+git commit -m “done”
+git remote add origin <the_repository_path_name>
+git push -u origin master
+
+git init/git clone <Repository_Path>
