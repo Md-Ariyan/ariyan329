@@ -1,3 +1,4 @@
+https://github.com/Jishu15/MCKV_aws.git
 #!/bin/bash
 apt-get update
 apt-get install -y nginx
